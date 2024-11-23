@@ -20,11 +20,11 @@
     overflow-x: hidden;
   }
   #home {
-    padding-top: 500px!important;
+    padding-top: 100px!important;
     background: black; 
     overflow: hidden; /* Change the background to solid black */
   }
   .profileImg {
-    height: 300px;
+    width: 100%;
 }
 }

@@ -4,7 +4,7 @@ import works from '../works.js';
 
 function Works() {
     const [workData, setWorkData] = useState(works);
-    const [activeCategory, setActiveCategory] = useState(''); // Track the active category
+    const [activeCategory, setActiveCategory] = useState('All'); // Track the active category
 
     const categories = ['All', 'Logo Animations', 'Logo', 'Mobile', 'Posters'];
 
